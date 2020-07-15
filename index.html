@@ -1,0 +1,214 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery/jquery.mobile-1.4.5.min.css" />
+	<script src="jquery/jquery-1.11.1.min.js"></script>
+	<script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+	<link rel="stylesheet"	type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<title>FARMACIAS GALENO</title>
+</head>
+<body>	
+	<!--Página No.01-->
+	<div data-role="page" id="Pagina"  style="background-color:white;">
+		<center>
+			<img src="img/1.png" class="img" width="100%">
+			<p class="letra" style="font-family:Impact; font-size:100%; color:#ed2228;">FARMACIAS GALENO TE DA LA</p>	
+			<a href="#Pagina2" id="Botón" class="ui-btn" data-transition="Flow" style="background-color:white; font-family:Impact; font-size:100%; color:#2e3192; width:50%;">BIENVENIDA</a>
+		</center>	
+
+		<style >
+			
+			.img{
+
+				position:relative;
+				top:175;
+			}
+			
+			.letra{
+
+				position:relative;
+				top:175;
+			}
+
+			#Botón{
+
+				position:relative;
+				top:155;
+			}
+
+		</style>
+		
+	</div>
+
+	<!--Página No.02-->
+	<div data-role="page" id="Pagina2">
+
+		<div data-role="header" data-position="fixed" style="overflow:hidden; height:06%; background-color:#2e3192;">
+			<a href="#Pagina" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-notext ui-btn-inline" style="background-color:#2e3192;"></a>
+			<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIAS GALENO</h1>
+        </div>
+		
+		<div data-role="navbar" data-iconpos="left">
+			<ul>
+				<li><a href="#Pagina3" data-transition="slidefade" data-icon="shop" style="background-color:#F1C40F; font-family:Impact; font-size:95%; color:#ed2228;">FARMACIA VIRTUAL</a></li>
+				<li><a href="#Pagina4" data-transition="slidefade" data-icon="phone" style="background-color:#F1C40F; font-family:Impact; font-size:95%; color:#ed2228;">CONTACTOS</a></li>
+			</ul>
+		</div>
+		
+		<img src="img/2.png" width="100%">
+
+	</div>
+
+	<!--Página No.03-->
+	<div data-role="page" id="Pagina3">
+		<div data-role="header" data-position="fixed" data-fullscreen="true" style="height:06%; background-color:#2e3192;">
+			<a href="#Pagina2" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-notext ui-btn-inline" style="background-color:#2e3192;"></a>
+			<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA VIRTUAL</h1>
+        </div>
+	<center>
+
+		<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/3.jpg" width="100%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">AGUA OXIGENADA</h1>
+					 <a href="#ventana1" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana1" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 7.50</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+
+		<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/4.png" width="70%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">ALCOHOL</h1>
+					 <a href="#ventana2" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana2" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 3.50</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+
+		<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/5.jpg" width="100%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">ALGODÓN</h1>
+					 <a href="#ventana3" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana3" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 8.90</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+
+		<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/6.png" width="100%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">GASAS</h1>
+					 <a href="#ventana4" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana4" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 0.75</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+
+		<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/7.jpg" width="100%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">CURITAS</h1>
+					 <a href="#ventana5" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana5" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 0.50</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+
+				<div class="card border-primary mb-3" style="width:80%">
+			<img src="img/8.jpg" width="100%">
+				<div class="card-body">
+					<h1 class="card-title" style="font-family:Impact; font-size:100%; color:#2e3192;">GEL ANTIBACTERIAL</h1>
+					 <a href="#ventana6" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Flow" style="background-color:#F1C40F; font-family:Impact; font-size:100%; color:#ed2228;">CONSULTAR PRECIO</a>
+					  </div>
+		</div>
+
+				<div data-role="popup" id="ventana6" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:2em; background-color:#2e3192">
+				<center>
+					<h1 style="font-family:Impact; font-size:100%; color:white;">FARMACIA GALENO</h1>
+					<p style="font-size:100%; color:white;">PRECIO Q 12.75</p>
+					<a href="#" style="background-color:#196F3D; color:white;" class="ui-shadow ui-btn ui-corner-all ui-btn-inline iu-mini">Comprar</a>
+				</center>
+				</div>
+		
+		
+	</center>
+	</div>
+
+	<!--Página No.04-->
+	<div data-role="page" id="Pagina4">
+		<div data-role="header" data-position="fixed" data-fullscreen="true" style="height:06%; background-color:#2e3192;">
+			<a href="#Pagina2" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-notext ui-btn-inline" style="background-color:#2e3192;"></a>
+			<h1 style="font-family:Impact; font-size:100%; color:white;">CONTACTOS</h1>
+        </div>
+	<center>
+		<div class="card border-primary mb-3" style="width:90%">
+			<div class="card-body">
+
+				<a class="ui-btn ui-shadow ui-corner-all ui-icon-location ui-btn-icon-notext ui-btn-inline"></a>
+					<p><strong>Dirección:</strong> 4a. avenida 23-01 zona 14 guatemala</p>
+					<p><strong>Dirección:</strong> Carr. a Villa Canales, Cdad. de Guatemala</p>
+
+					<a class="ui-btn ui-shadow ui-corner-all ui-icon-phone ui-btn-icon-notext ui-btn-inline"></a>
+					<p><strong>Teléfono:</strong> (502) 2478-7070</p>
+					
+					<a class="ui-btn ui-shadow ui-corner-all ui-icon-navigation ui-btn-icon-notext ui-btn-inline"></a>
+					<p><strong>Sitio Web:</strong> http://www.farmaciasgaleno.com.gt/</p>
+
+				<form>
+					<div class="form-group">
+						<a class="ui-btn ui-shadow ui-corner-all ui-icon-mail ui-btn-icon-notext ui-btn-inline"></a>
+						<label for="exampleInputEmail1">farmaciasgaleno@gmail.com</label>
+						<input type="text" id="Enviar" placeholder="Escribe tu mail..." value="" data-clear-btn="true">		   
+					</div>	
+						<a href="#Enviado" class="ui-btn" data-rel="popup" data-position-to="window" data-transition="Pop" style="background-color:#196F3D; font-size:100%; color:white;">Enviar</a>
+
+				</form>
+			</div>		
+		</div>
+
+		<div data-role="popup" id="Enviado" data-rel="back" class="ui-content" style="max-width:500px; padding-bottom:1em; background-color:#196F3D">
+			<center>
+				<h1 style="font-size:100%; color:white;">ENVIADO</h1>
+			</center>
+		</div>
+
+	</center>
+	</div>
+</body>
+</html>
